@@ -10,7 +10,7 @@ const route = require('./routes/route');
 
 // Set up mongoose connection
 const mongoose = require('mongoose');
-let dev_db_url = 'mongodb+srv://guna-admin:gunaadmin@cluster0.qb0ti.mongodb.net/slots';
+let dev_db_url = 'mongodb+srv://guna-admin:gunaadmin@cluster0.qb0ti.mongodb.net/doctorApp';
 
 //let mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(process.env.MONGODB_URI || dev_db_url, { useNewUrlParser: true, useUnifiedTopology: true });
